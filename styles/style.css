@@ -1,0 +1,691 @@
+body{
+margin: 0 auto;
+max-width: 100%;
+max-height: 100%;
+}
+
+a{
+text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.wrapper{
+    height: 74px;
+}
+.demos{
+    color: #FD8558;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4px; /* 9.333% */
+    letter-spacing: 0.2px;
+    text-transform: lowercase;
+}
+.anow{
+    color: black;
+    font-size: 28px;
+    font-family: Poppins;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 44.8px; /* 160% */
+ letter-spacing: 1.1px;
+ text-transform: lowercase;
+ margin-left: 86px;
+}
+.about{
+    color: black;
+    font-family: Poppins;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.4px; /* 9.333% */
+ letter-spacing: 0.2px;
+ text-transform: lowercase;
+}
+
+.portf{
+    color: black;
+    font-family: Poppins;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.4px; /* 9.333% */
+ letter-spacing: 0.2px;
+ text-transform: lowercase;
+}
+.team{
+    color: black;
+    font-family: Poppins;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.4px; /* 9.333% */
+ letter-spacing: 0.2px;
+ text-transform: lowercase;
+
+}
+.news{
+    color: black;
+    font-family: Poppins;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.4px; /* 9.333% */
+ letter-spacing: 0.2px;
+ text-transform: lowercase;
+
+}
+.cont{
+    color: black;
+    font-family: Poppins;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.4px; /* 9.333% */
+ letter-spacing: 0.2px;
+ text-transform: lowercase;
+
+}
+.other{
+    color: black;
+    font-family: Poppins;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.4px; /* 9.333% */
+ letter-spacing: 0.2px;
+ text-transform: lowercase;
+
+}
+.demos:hover{
+    transition: color 0.5s ease;
+    color: black;
+}
+.about:hover{
+    transition: color 0.5s ease;
+    color: #FD8558;
+}
+.portf:hover{
+    transition: color 0.5s ease;
+    color: #FD8558;
+}
+.team:hover{
+    transition: color 0.5s ease;
+    color: #FD8558;
+}
+.news:hover{
+    transition: color 0.5s ease;
+    color: #FD8558;
+}
+.cont:hover{
+    transition: color 0.5s ease;
+    color: #FD8558;
+}
+.other:hover{
+    transition: color 0.5s ease;
+    color: #FD8558;
+}
+
+.bar{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    margin-top: -32px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: black;
+    height: 701px;
+}
+.container ul{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hero-title{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 70px;
+padding-top: 100px;
+margin: 0 auto;
+font-style: normal;
+font-weight: 400;
+line-height: 85.4px; /* 122% */
+}
+
+.hero-title-two{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: 85.4px; /* 122% */
+}
+
+.button{
+    display: flex;
+    gap: 30px;
+   
+    justify-content: center;
+
+}
+.start{
+    background-color: #FD8558 ;
+    border-color: #FD8558;
+  
+    width: 154px;
+height: 56px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 200% */
+}
+.start:hover{
+    background-color: black;
+    transition: background-color 0.5s ease;
+    
+}
+.see{
+    color: #FFF;
+    width: 154px;
+height: 56px;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 200% */
+border-color: #FD8558;
+background-color: black;
+}
+.see:hover{
+background-color: #FD8558;
+transition: background-color 0.5s ease;
+}
+
+.wrapper-two{
+    display: flex;
+}
+.side{
+    width: 50%;
+}
+.side p{
+    color: #FD8558;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+padding-left: 59px;
+font-weight: 400;
+line-height: 15.4px; /* 110% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.side h1{
+    color: #333;
+    font-family: Poppins;
+    font-size: 36px;
+    padding-left: 59px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+}
+.text{
+    width: 50%;
+}
+.text h3{
+    color: #222;
+    margin-right: 111px;
+font-family: Poppins;
+font-size: 18px;
+margin-top: 150px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+text-transform: capitalize;
+}
+.text p{
+    margin-right: 100px;
+    color: #999;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.5px; /* 170% */
+}
+.white-about{
+    margin-top: 50px;
+    padding-left: 20px;
+    color: #F7F7F7;
+font-family: Poppins;
+font-size: 100px;
+margin-bottom: 0px;
+font-style: normal;
+font-weight: 400;
+line-height: 145px; /* 96.667% */
+letter-spacing: 0.1px;
+}
+
+.wrapper-three{
+    display: flex;
+}
+.info-pic{
+    width: 54%;
+}
+.info-text{
+    width: 46%;
+    padding: 40px;
+ 
+}
+.info-pic img{
+    padding-left: 90px;
+}
+.mission{
+    color: #222;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: 45px; /* 173.077% */
+}
+.quality{
+    color: #FD8558;
+font-family: Poppins;
+font-size: 26px;
+font-style: italic;
+font-weight: 400;
+line-height: 45px;
+}
+
+.name{
+    color: #222;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 100% */
+}
+
+.who{
+    color: #CACACA;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.6px; /* 180% */
+letter-spacing: 1.8px;
+}
+.wrapper-four{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    margin-top: 50  px;
+}
+.first{
+    width: 33%;
+    text-align: center;
+}
+.first h3{
+    color: #333;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 38.4px; /* 160% */
+}
+.first p{
+    color: #999;
+text-align: center;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.5px; /* 170% */
+}
+.second{
+    width: 33%;
+    text-align: center;
+}
+.second h3{
+    color: #333;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 38.4px; /* 160% */
+}
+.second p{
+    color: #999;
+text-align: center;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.5px; /* 170% */
+}
+
+.third{
+    width: 33%;
+    text-align: center;
+}
+.third h3{
+    color: #333;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 38.4px; /* 160% */
+}
+
+.third p{
+    color: #999;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px; /* 170% */
+}
+
+.frame{
+    justify-content: center;
+    display: flex;
+}
+.wrapper-five{
+    display: flex;
+    margin-top: 50px;
+}
+.look{
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.look h1{
+    color: #FD8558;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.4px; /* 110% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.look p{
+    color: #333;
+font-family: Poppins;
+font-size: 32px;
+width: 300px;
+font-style: normal;
+font-weight: 400;
+line-height: 38.4px; /* 120% */
+}
+.more{
+    width: 50%;
+    direction: rtl;
+}
+.more p{
+    color: #F7F7F7;
+text-align: right;
+font-family: Poppins;
+font-size: 145px;
+font-style: normal;
+margin-bottom: 0;
+margin-top: 0px;
+font-weight: 400;
+line-height: 180px; /* 90% */
+padding-right: 30px;
+}
+
+.more button{
+    background-color: #FD8558;
+    color: #F7F7F7;
+    height: 46px;
+    border-color: #FD8558;
+    width: 120px;
+    margin-right: 80px;
+}
+.flex{
+    display: flex;
+    background-image: url('../img/bq.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 599px;
+    background-position: center;
+}
+
+.all-container-one{
+    width: 50%;
+    direction: ltr;
+}
+.crazy{
+    color: #222;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    position: absolute;
+    border: aqua;
+    margin-left: 13px;
+    width: 186px;
+    margin-top: 214px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.stylish{
+    color: #222;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    position: absolute;
+    border: aqua;
+    margin-left: 13px;
+    width: 186px;
+    margin-top: 214px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.all-container-two{
+    width: 50%;
+    direction: rtl;
+}
+
+.differents{
+    color: #222;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    position: absolute;
+    border: aqua;
+    margin-left: 13px;
+    width: 186px;
+    margin-top: 214px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+}
+.bag{
+    color: #222;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    position: absolute;
+    border: aqua;
+    margin-left: 13px;
+    width: 186px;
+    margin-top: 214px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+}
+.container-one{
+    margin-bottom: -5px;
+}
+.container-two{
+    margin-bottom: -5px;
+}
+.container-three{
+    margin-bottom: -5px;
+}
+.container-four{
+    margin-bottom: -5px;
+}
+.obl{
+    position: absolute;
+    left: 354px;
+}
+.obliq{
+    top: 489px;
+    position: absolute;
+    color: #222;
+    font-family: Poppins;
+    width: 388px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+}
+.grafs{
+    display: flex;
+}
+.our-skills{
+ width: 50%;
+ padding: 30px;   
+}
+
+.our-skills h1{
+    color: #FD8558;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 15.4px; /* 110% */
+letter-spacing: 2px;
+margin-bottom: 0;
+text-transform: uppercase;
+}
+.modern-di{
+    color: #222;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+margin-top: 0;
+margin-bottom: 13px;
+width: 400px;
+font-weight: 400;
+line-height: 38.4px; /* 120% */
+}
+.some{
+    color: #999;
+    font-family: Poppins;
+    width: 481px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px; /* 182.143% */
+}
+.bars{
+    width: 50%;
+    margin-top: 57px;
+}
+.item{
+    color: #222;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+gap: 433px;
+line-height: 25.2px; /* 140% */
+}
+.nine{
+    margin-bottom: 0;
+    color: #999;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.4px; /* 156% */
+}
+.percent{
+    width: 566px;
+    height: 10px;
+    flex-shrink: 0;
+background: linear-gradient(100deg, #FF4803 8%, #FFAE35 86%, #EEE 16%);
+}
+
+.item-two{
+    color: #222;
+    font-family: Poppins;
+    font-size: 17px;
+        margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    gap: 433px;
+    line-height: 25.2px; /* 140% */
+}
+.eight{
+    margin-bottom: 0;
+    color: #999;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.4px; /* 156% */
+}
+.percent-two{
+    width: 566px;
+    height: 10px;
+    flex-shrink: 0;
+background: linear-gradient(100deg, #FF4803 8%, #FFAE35 79%, #EEE 16%)
+}
+
+.item-three{
+    color: #222;
+    font-family: Poppins;
+    font-size: 17px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    gap: 418px;
+    line-height: 25.2px; /* 140% */
+}
+.nine-point-five{
+    margin-bottom: 0;
+    color: #999;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.4px; /* 156% */
+}
+.percent-three{
+    width: 566px;
+    height: 10px;
+    flex-shrink: 0;
+    background: linear-gradient(100deg, #FF4803 8%, #FFAE35 94%, #EEE 16%);
+}
